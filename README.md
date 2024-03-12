@@ -1,6 +1,6 @@
 # Export ONNX model from Pytorch model
 
-Based on documentation in this (tutorial)[https://pytorch.org/tutorials/beginner/onnx/export_simple_model_to_onnx_tutorial.html].
+Based on documentation in this [tutorial](https://pytorch.org/tutorials/beginner/onnx/export_simple_model_to_onnx_tutorial.html).
 
 ## Installation
 
@@ -12,6 +12,8 @@ pip install netron
 ```
 
 ## Visualize
+
+Use [Netron](https://github.com/lutzroeder/netron)
 
 ```bash
 netron <onnx_file_name>
