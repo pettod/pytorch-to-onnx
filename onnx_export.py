@@ -1,9 +1,4 @@
 # https://pytorch.org/tutorials/beginner/onnx/export_simple_model_to_onnx_tutorial.html
-# pip install onnx
-# pip install onnxscript
-# pip install onnxruntime
-# pip install netron
-# netron <onnx_file_name>
 
 import onnx
 import onnxruntime
@@ -13,7 +8,7 @@ from importlib import import_module
 from src.utils.utils import loadModel
 
 
-MODEL_PATH = "saved_models/2023-12-30_164353_8k-flops"
+MODEL_PATH = "saved_models/2024-03-12_000000"
 INPUT_SHAPE = (1, 2, 256)
 INPUT_NAMES = ["cnn_input"]
 OUTPUT_NAMES = ["cnn_output"]
